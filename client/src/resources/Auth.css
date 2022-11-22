@@ -1,0 +1,60 @@
+
+
+.register{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* padding-right: 100px; */
+
+    justify-content: center;
+    background-image: linear-gradient(to left, #fff1eb 0%, #ace0f9 100%);
+}
+.login{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #fff1eb 0%, #ace0f9 100%);
+}
+
+.lottyr{
+    height: 600px;
+    margin-right: 90px;
+}
+.lottyl{
+    height: 600px;
+    margin-left: 90px;
+}
+.register input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.795);
+    color:  rgb(0, 10, 4) !important;
+    
+}
+.login input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.795);
+    color:  rgb(0, 10, 4) !important;
+    
+}
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+label,a{
+    color: rgb(0, 10, 4) !important;
+    /* font-size: 3vh; */
+}
+.register h1{
+    
+    color:rgb(214, 38, 29) ;
+}
+.login h1{
+    
+    color:rgb(214, 38, 29) ;
+}
+
+

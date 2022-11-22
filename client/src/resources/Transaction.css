@@ -1,0 +1,36 @@
+.filter{
+    box-shadow: 0 0 3px gray;
+    padding: 15px 15px;
+    border-radius: 10px;
+    /* overflow-x: scroll; */
+}
+
+.view-switch-card{
+    border: 2px solid rgba(0, 0, 0, 0.652);
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.anticon svg{
+    font-size: 25px;
+    cursor: pointer;
+}
+.active-icon{
+    color: black;
+    cursor: pointer;
+}
+.inactive-icon{
+    color: grey;
+}
+.primary{   
+    background-color: rgb(197, 57, 57);
+    /* padding: auto; */
+    height: 40%;
+    /* width: 50%; */
+    /* margin-right: 5%; */
+}
+@media screen and (max-width: 600px){
+    .filter{
+        overflow-x: scroll;
+    }
+}
